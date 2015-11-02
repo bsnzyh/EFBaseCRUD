@@ -1,0 +1,12 @@
+I:\Study\Dot_Net_Code\EF\EFFirst\P03BLL\bin\Debug\P03BLL.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\P03BLL\bin\Debug\P03BLL.pdb
+I:\Study\Dot_Net_Code\EF\EFFirst\P03BLL\bin\Debug\P04DAL.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\P03BLL\bin\Debug\P05MODEL.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\P03BLL\bin\Debug\EntityFramework.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\P03BLL\bin\Debug\P04DAL.pdb
+I:\Study\Dot_Net_Code\EF\EFFirst\P03BLL\bin\Debug\P05MODEL.pdb
+I:\Study\Dot_Net_Code\EF\EFFirst\P03BLL\bin\Debug\EntityFramework.xml
+I:\Study\Dot_Net_Code\EF\EFFirst\P03BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\P03BLL\obj\Debug\P03BLL.csprojResolveAssemblyReference.cache
+I:\Study\Dot_Net_Code\EF\EFFirst\P03BLL\obj\Debug\P03BLL.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\P03BLL\obj\Debug\P03BLL.pdb

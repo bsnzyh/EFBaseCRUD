@@ -1,0 +1,9 @@
+I:\Study\Dot_Net_Code\EF\EFFirst\P05MODEL\bin\Debug\P05MODEL.dll.config
+I:\Study\Dot_Net_Code\EF\EFFirst\P05MODEL\bin\Debug\P05MODEL.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\P05MODEL\bin\Debug\P05MODEL.pdb
+I:\Study\Dot_Net_Code\EF\EFFirst\P05MODEL\bin\Debug\EntityFramework.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\P05MODEL\bin\Debug\EntityFramework.xml
+I:\Study\Dot_Net_Code\EF\EFFirst\P05MODEL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\P05MODEL\obj\Debug\P05MODEL.csprojResolveAssemblyReference.cache
+I:\Study\Dot_Net_Code\EF\EFFirst\P05MODEL\obj\Debug\P05MODEL.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\P05MODEL\obj\Debug\P05MODEL.pdb

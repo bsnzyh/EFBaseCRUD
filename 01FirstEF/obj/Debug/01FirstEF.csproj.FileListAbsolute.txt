@@ -1,0 +1,9 @@
+I:\Study\Dot_Net_Code\EF\EFFirst\01FirstEF\bin\Debug\01FirstEF.exe.config
+I:\Study\Dot_Net_Code\EF\EFFirst\01FirstEF\bin\Debug\01FirstEF.exe
+I:\Study\Dot_Net_Code\EF\EFFirst\01FirstEF\bin\Debug\01FirstEF.pdb
+I:\Study\Dot_Net_Code\EF\EFFirst\01FirstEF\bin\Debug\EntityFramework.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\01FirstEF\bin\Debug\EntityFramework.xml
+I:\Study\Dot_Net_Code\EF\EFFirst\01FirstEF\bin\Debug\zh-Hans\EntityFramework.resources.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\01FirstEF\obj\Debug\01FirstEF.exe
+I:\Study\Dot_Net_Code\EF\EFFirst\01FirstEF\obj\Debug\01FirstEF.pdb
+I:\Study\Dot_Net_Code\EF\EFFirst\01FirstEF\obj\Debug\01FirstEF.csprojResolveAssemblyReference.cache

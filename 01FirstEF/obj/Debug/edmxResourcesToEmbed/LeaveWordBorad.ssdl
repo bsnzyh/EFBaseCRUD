@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LeaveWordBoradModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityType Name="Msg">
+    <Key>
+      <PropertyRef Name="mId" />
+    </Key>
+    <Property Name="mId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="mFromUser" Type="int" Nullable="false" />
+    <Property Name="mToUser" Type="int" Nullable="false" />
+    <Property Name="mMsg" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="mAddtime" Type="datetime" Nullable="false" />
+    <Property Name="mIsDel" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="uId" />
+    </Key>
+    <Property Name="uId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="uName" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="uLoginName" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="uPwd" Type="char" MaxLength="32" Nullable="false" />
+    <Property Name="uAddtime" Type="datetime" Nullable="false" />
+    <Property Name="uIsDel" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UsersAddress">
+    <Key>
+      <PropertyRef Name="udId" />
+    </Key>
+    <Property Name="udId" Type="int" Nullable="false" />
+    <Property Name="udUId" Type="int" Nullable="false" />
+    <Property Name="udAddress" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Msg_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Msg" Type="Self.Msg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="uId" />
+      </Principal>
+      <Dependent Role="Msg">
+        <PropertyRef Name="mFromUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Msg_Users1">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Msg" Type="Self.Msg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="uId" />
+      </Principal>
+      <Dependent Role="Msg">
+        <PropertyRef Name="mToUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsersDetails_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="UsersAddress" Type="Self.UsersAddress" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="uId" />
+      </Principal>
+      <Dependent Role="UsersAddress">
+        <PropertyRef Name="udUId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LeaveWordBoradModelStoreContainer">
+    <EntitySet Name="Msg" EntityType="Self.Msg" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UsersAddress" EntityType="Self.UsersAddress" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Msg_Users" Association="Self.FK_Msg_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Msg" EntitySet="Msg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Msg_Users1" Association="Self.FK_Msg_Users1">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Msg" EntitySet="Msg" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsersDetails_Users" Association="Self.FK_UsersDetails_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UsersAddress" EntitySet="UsersAddress" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

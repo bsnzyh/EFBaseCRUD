@@ -1,0 +1,15 @@
+I:\Study\Dot_Net_Code\EF\EFFirst\02WebApp\bin\02WebApp.dll.config
+I:\Study\Dot_Net_Code\EF\EFFirst\02WebApp\bin\02WebApp.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\02WebApp\bin\02WebApp.pdb
+I:\Study\Dot_Net_Code\EF\EFFirst\02WebApp\obj\Debug\02WebApp.csprojResolveAssemblyReference.cache
+I:\Study\Dot_Net_Code\EF\EFFirst\02WebApp\obj\Debug\02WebApp.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\02WebApp\obj\Debug\02WebApp.pdb
+I:\Study\Dot_Net_Code\EF\EFFirst\02WebApp\bin\EntityFramework.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\02WebApp\bin\EntityFramework.xml
+I:\Study\Dot_Net_Code\EF\EFFirst\02WebApp\bin\zh-Hans\EntityFramework.resources.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\02WebApp\bin\P03BLL.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\02WebApp\bin\P05MODEL.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\02WebApp\bin\P03BLL.pdb
+I:\Study\Dot_Net_Code\EF\EFFirst\02WebApp\bin\P05MODEL.pdb
+I:\Study\Dot_Net_Code\EF\EFFirst\02WebApp\bin\P04DAL.dll
+I:\Study\Dot_Net_Code\EF\EFFirst\02WebApp\bin\P04DAL.pdb

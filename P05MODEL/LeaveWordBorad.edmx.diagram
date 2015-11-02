@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f8e12a4199c14294b5563192e98fb123" Name="Diagram1">
+        <EntityTypeShape EntityType="LeaveWordBoradModel.Msg" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeaveWordBoradModel.User" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeaveWordBoradModel.UsersAddress" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="LeaveWordBoradModel.FK_Msg_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="LeaveWordBoradModel.FK_Msg_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="LeaveWordBoradModel.FK_UsersDetails_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
